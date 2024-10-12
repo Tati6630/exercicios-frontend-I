@@ -1,0 +1,8 @@
+.listaProdutos {
+    background-color: blueviolet;
+    color: yellow;
+    list-style-type:disc;
+    font-family:Arial, Helvetica, sans-serif;
+
+    margin: 16px;
+}
