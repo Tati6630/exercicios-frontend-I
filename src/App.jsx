@@ -8,6 +8,8 @@ import MinutoAtual from './componentes/MinutoAtual/MinutoAtual';
 import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 import OlaPessoa from './componentes/OlaPessoa/OlaPessoa';
 import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
+import VerificarIdade from './componentes/VerificarIdade/VerificarIdade';
+import NumerosPares from './componentes/NumerosPares/NumerosPares';
 
 
 function App() {
@@ -71,20 +73,42 @@ function App() {
       <hr />
 
       <span>
-      8. Crie um componente chamado 'OlaPessoa' que aceita uma prop chamada 'nome' e 
-      mostra o texto: "Olá, [nome]!" em uma div com o fundo laranja, texto centralizado na cor roxa.
+        8. Crie um componente chamado 'OlaPessoa' que aceita uma prop chamada 'nome' e
+        mostra o texto: "Olá, [nome]!" em uma div com o fundo laranja, texto centralizado na cor roxa.
       </span>
 
       <OlaPessoa nome="Arthur, meu filho adorado!!!" />
       <hr />
 
       <span>
-      9. Crie um componente chamado 'ListaProdutos' que aceita uma prop chamada 'produtos' e deve
-      ser uma lista de nomes de produtos. O componente deve listar os itens em tela em uma 'ul' com 
-      o fundo roxo e a letra amarela.
+        9. Crie um componente chamado 'ListaProdutos' que aceita uma prop chamada 'produtos' e deve
+        ser uma lista de nomes de produtos. O componente deve listar os itens em tela em uma 'ul' com
+        o fundo roxo e a letra amarela.
       </span>
 
       <ListaProdutos produtos={['Celular Samsung', 'Notebook Accer', 'Smart TV LG', 'Impressora HP', 'Tablet Multilaser', 'Monitor Dell']} />
+      <hr />
+
+      <span>
+        10.Crie um componente chamado 'VerificarIdade' que aceita uma prop chamada 'idade' e mostra uma mensagem:
+        "xx anos, é maior de idade" se a idade for maior ou igual a 18, em uma div com o fundo verde e
+        letra amarela;
+        "xx anos, é menor de idade" se for menor que 18, em uma div com o fundo vermelho e letra amarela.;
+        Chame o componente duas vezes, uma para maior de idade e outra para menor de idade.
+      </span>
+
+      <VerificarIdade idade='22' />
+      <VerificarIdade idade='17' />
+      <hr />
+
+      <span>
+        11.Crie um componente chamado 'NumerosPares' que aceita uma prop chamada 'numeros' e deve ser uma
+        lista de números inteiros. O componente deve mostrar uma lista com os números pares em uma 'ul'
+        com o fundo azul e a letra amarela.
+      </span>
+
+      <NumerosPares numeros={['6', '8', '78', '20', '54', '48']} />
+      <hr />
 
     </>
 

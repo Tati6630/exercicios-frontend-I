@@ -1,0 +1,17 @@
+.verificarIdadeMaior {
+    background-color: rgb(4, 79, 4);
+    color:yellow;
+    display: flex;
+    justify-content: center;
+
+    margin: 16px;
+}
+
+.verificarIdadeMenor {
+    background-color:rgb(185, 29, 29);
+    color:yellow;
+    display: flex;
+    justify-content: center;
+    
+    margin: 16px;
+}

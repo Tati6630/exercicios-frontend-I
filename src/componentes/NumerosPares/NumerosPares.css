@@ -1,0 +1,7 @@
+.numerosPares {
+    background-color:navy;
+    color: yellow;
+    list-style-type:disc;
+
+    margin: 16px;
+}
