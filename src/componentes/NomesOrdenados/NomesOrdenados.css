@@ -1,0 +1,8 @@
+.nomesOrdenados {
+    background-color:hotpink;
+    color:darkred;
+    list-style-type:disc;
+    font-family:cursive;
+
+    margin: 16px;
+}

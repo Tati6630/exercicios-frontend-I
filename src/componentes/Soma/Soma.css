@@ -1,0 +1,8 @@
+.soma {
+    background-color: rgb(74, 4, 4);
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    margin: 16px;
+}

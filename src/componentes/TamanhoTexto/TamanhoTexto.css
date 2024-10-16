@@ -1,0 +1,8 @@
+.tamanhoTexto {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(65, 30, 30);
+    color:yellow;
+
+    margin: 16px;
+}

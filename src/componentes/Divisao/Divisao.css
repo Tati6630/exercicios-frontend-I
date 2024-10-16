@@ -1,0 +1,8 @@
+.divisao {
+    display: flex;
+    justify-content: center;
+    background-color: darkorange;
+    color: blue;
+
+    margin: 16px;
+}
